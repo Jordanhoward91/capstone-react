@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import "../styles/App.scss";
+
+import Home from "../widgets/home.js";
 import Swapi from "../widgets/swapi.js";
 import Counter from "../widgets/counter.js";
 import ShowHide from "../widgets/showHide.js";
@@ -23,10 +25,11 @@ class App extends Component {
           </nav>
           <hr />
           <Switch>
-              <Route exact path='/swapi' component={Swapi} />
-              <Route path='/counter' component={Counter} />
-              <Route path='/showhide' component={ShowHide} />
-              <Route path='/fontsizer' component={FontSizer} />
+            <Route exact path="/" component={Home} />
+            <Route exact path='/swapi' component={Swapi} />
+            <Route path='/counter' component={Counter} />
+            <Route path='/showhide' component={ShowHide} />
+            <Route path='/fontsizer' component={FontSizer} />
           </Switch>
         </div>
       </Router>

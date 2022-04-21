@@ -10,6 +10,7 @@ const FontSizer = () => {
   return (
     <div className="text-sizer">
       <div>
+			<h1>Font Size</h1>
 			<p style={{ fontSize: `${size}px` }}>{size}px</p>
 			<button id="shrinkBtn" onClick={() => handleCrement(-5)}>
 				Shrink
