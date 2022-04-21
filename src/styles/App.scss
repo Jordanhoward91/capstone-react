@@ -1,0 +1,44 @@
+.App{
+	display: flexbox;
+	flex-direction: row-reverse;
+	justify-content: right;
+	align-items: center;
+	text-align: center;
+	color: rgb(7, 87, 4);
+
+	.header {
+		ul {
+			display: flex;
+			flex-direction: row;
+		}
+	}
+	// button{
+	// 	display: flexbox;
+	// 	align-items: center;
+	// 	justify-content: center;
+	// 	color: rgb(4, 2, 0);
+	// }
+
+	.swapi {
+		display: flexbox;
+		flex-direction: row;
+		color: red;
+	}
+
+	.counter{
+		display: flexbox;
+		align-items: center;
+		justify-content: flex-end;
+		color: rgb(4, 2, 0);
+	}
+
+	.show-hide{
+		color: red;
+	}
+
+	.text-sizer {
+		color: rgb(184, 15, 226);
+	}
+
+}
+
