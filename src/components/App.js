@@ -16,7 +16,7 @@ class App extends Component {
         <div className="header">
           <nav className="main-navbar">
           <ul className="navbar">
-            <li><Link to={'/'} className="nav-link"> Home </Link></li>
+            <li><Link to={'/'} className="nav-link"> Dashboard </Link></li>
             <li><Link to={'/Swapi'} className="nav-link">Swapi</Link></li>
             <li><Link to={'/Counter'} className="nav-link">Counter</Link></li>
             <li><Link to={'/ShowHide'} className="nav-link">Show Hide</Link></li>

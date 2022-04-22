@@ -1,9 +1,9 @@
+import { Component } from "react/cjs/react.production.min";
+
 import Swapi from "./swapi";
 import Counter from "./counter";
 import ShowHide from "./showHide";
 import FontSizer from "./fontSize";
-// import { render } from "react-dom";
-import { Component } from "react/cjs/react.production.min";
 
 
 class Home extends Component{
